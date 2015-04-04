@@ -1,15 +1,86 @@
 body{
 
   margin:0;
+  font-family:arial,helvetica,sans-serif;
+
+  line-height:16px;
 }
 
 #topbar {
-  background-color:#7A0200;
+  background-color:#7A0000;
   width:100%;
-  height:40px;
+  height:46px;
+  margin:0;
 }
 
 .fixedwidth {
-  width:1050px;
+  width:1150px;
   margin:0 auto;
+}
+
+#logodiv {
+  float:left;
+  border-right:1px solid #990000;
+  padding-right:10px;
+  height:45px;
+}
+
+#logodiv img {
+  position:relative;
+  top:10px;
+}
+
+#signindiv {
+  color:#FFF;
+  height:40px;
+  font-weight:bold;
+  font-size:0.9em;
+  padding:6px 80px 0px 50px;
+  float:left;
+  border-right:1px solid #950000;
+}
+
+#signindiv p {
+  padding-left:20px;
+  margin:0;
+  position:relative;
+  bottom:15px;
+  float:left;
+
+}
+
+#signindiv img {
+  padding-top:20px;
+}
+
+#topmenudiv {
+  float:left;
+}
+
+#topmenudiv li {
+
+  list-style:none;
+  font-weight:bold;
+  font-size:0.9em;
+  border-right:1px solid #950000;
+  height:100%;
+  padding:10px 20px 12px 20px;
+  float:left;
+  color:white;
+}
+
+#topmenudiv ul {
+  margin:0;
+  padding:0;
+
+}
+
+#topmenudiv input {
+    height:25px;
+    border:none;
+    font-size:10px;
+    padding-left:8px;
+    background-image:url("images/magnify.png");
+    background-repeat:no-repeat;
+    background-position:right center;
 }
